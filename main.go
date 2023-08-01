@@ -30,6 +30,7 @@ func main() {
 		os.Exit(1)
 	}
 	// https://proxy-seller.com/tools/proxy-checker/
+
 	for _, v := range result {
 		m, ok := v.(map[string]any)
 		if !ok {
